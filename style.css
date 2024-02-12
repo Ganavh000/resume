@@ -42,8 +42,18 @@ header {
   list-style: none;
 }
 
+.key-competencies li {
+  margin-bottom: 15px;
+}
+
 .key-competencies h3 {
+  font-size: 1.2em; /* Slightly larger size for headings */
+  font-weight: bold;
   margin-bottom: 5px;
+}
+
+.key-competencies p {
+  font-size: 0.9em; /* Slightly smaller size for paragraphs */
 }
 
 /* Work experience styles */

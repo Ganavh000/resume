@@ -1,107 +1,47 @@
-/* Reset basic styles for consistency */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header styles */
-header {
-  padding: 20px;
-  background-color: #f2f2f2; /* Light gray background */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.contact-info {
-  list-style: none;
-  padding: 0;
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
-.contact-info li {
-  display: inline-block;
-  margin-right: 10px;
+header p {
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-.contact-info i {
-  font-size: 16px;
-  margin-right: 5px;
+header p a {
+    text-decoration: none;
+    color: blue;
 }
 
-/* Summary styles */
-.summary {
-  padding: 20px;
-  border-bottom: 1px solid #ddd;
+section {
+    margin-bottom: 30px;
 }
 
-/* Key competencies styles */
-.key-competencies {
-  padding: 20px;
+h2 {
+    font-size: 20px;
 }
 
-.key-competencies ul {
-  padding: 0;
-  list-style: none;
+ul, ol {
+    margin: 0;
+    padding-left: 20px;
 }
 
-.key-competencies li {
-  margin-bottom: 15px;
+ul li, ol li {
+    margin-bottom: 10px;
 }
 
-.key-competencies h3 {
-  font-size: 1.2em; /* Slightly larger size for headings */
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.key-competencies p {
-  font-size: 0.9em; /* Slightly smaller size for paragraphs */
-}
-
-/* Work experience styles */
-.work-experience {
-  padding: 20px;
-}
-
-.work-experience ul {
-  padding: 0;
-  list-style: none;
-}
-
-.work-experience li {
-  margin-bottom: 15px;
-}
-
-/* Education styles */
-.education {
-  padding: 20px;
-}
-
-.education ul {
-  padding: 0;
-  list-style: none;
-}
-
-/* Skills styles */
-.skills {
-  padding: 20px;
-}
-
-.skills ul {
-  padding: 0;
-  list-style: none;
-}
-
-.skills li {
-  margin-bottom: 5px;
-}
-
-/* Footer styles */
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #eee;
-}
-
-/* Optional media queries for responsiveness */
-@media (max-width: 768px) {
-  /* Adjust styles for smaller screens */
+section.skills ul {
+    columns: 2;
 }
